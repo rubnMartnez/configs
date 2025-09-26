@@ -12,3 +12,7 @@ alias connectHTB='sudo openvpn --config /media/sf_kaliShrdFolder/zArchived/lab_s
 alias fer='feroxbuster'
 alias cme='crackmapexec'
 alias cdImpacket='cd /usr/share/doc/python3-impacket/examples/'
+
+# Exports
+export EDITOR=nvim
+export VISUAL=nvim

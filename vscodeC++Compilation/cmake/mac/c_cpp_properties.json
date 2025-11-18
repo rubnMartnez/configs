@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "macOS",
+            "compilerPath": "/opt/homebrew/bin/g++-15",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}

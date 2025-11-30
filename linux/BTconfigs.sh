@@ -7,9 +7,9 @@ sudo btmgmt --index hci1 discov on
 # Then connect nornally via console
 sudo bluetoothctl
 scan on
-pair D3:B3:6F:41:39:49
-connect D3:B3:6F:41:39:49
-trust D3:B3:6F:41:39:49
+pair D3:B3:6F:41:39:4A
+connect D3:B3:6F:41:39:4A
+trust D3:B3:6F:41:39:4A
 
 # To restart BT
 sudo systemctl restart bluetooth

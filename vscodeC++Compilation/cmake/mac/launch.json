@@ -11,6 +11,15 @@
             "cwd": "${workspaceFolder}",
             "MIMode": "lldb",
             "externalConsole": false,
+        },
+        {
+            "name": "Debug fetchd",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": true,
+            "MIMode": "lldb"   // or gdb depending on your setup
         }
     ]
 }

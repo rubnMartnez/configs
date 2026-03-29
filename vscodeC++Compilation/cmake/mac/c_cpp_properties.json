@@ -2,7 +2,7 @@
     "configurations": [
         {
             "name": "macOS",
-            "compilerPath": "/opt/homebrew/bin/g++-15",
+            "compilerPath": "/usr/bin/clang++",
             "compileCommands": "${workspaceFolder}/build/compile_commands.json",
             "intelliSenseMode": "macos-clang-arm64"
         }

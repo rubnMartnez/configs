@@ -4,9 +4,9 @@
         {
             "label": "Build",
             "type": "shell",
-            "command": "g++-15", //from homebrew
+            "command": "clang++",
             "args": [
-                "-std=c++17",
+                "-std=c++20",
                 "-g",
                 "main.cpp",
                 "-o",
@@ -15,10 +15,7 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "problemMatcher": [
-                "$gcc"
-            ]
+            }
         }
     ]
 }

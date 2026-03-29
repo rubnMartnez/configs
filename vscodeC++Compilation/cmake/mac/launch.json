@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Launch main (CMake)",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
             "program": "${workspaceFolder}/build/main",
             "args": [],
@@ -14,12 +14,12 @@
         },
         {
             "name": "Debug fetchd",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
             "program": "${command:cmake.launchTargetPath}",
             "cwd": "${workspaceFolder}",
             "stopAtEntry": true,
-            "MIMode": "lldb"   // or gdb depending on your setup
+            "MIMode": "lldb"
         }
     ]
 }
